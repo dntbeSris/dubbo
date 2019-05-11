@@ -559,4 +559,10 @@
             </plugins>
         </pluginManagement>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>localRepository</id>
+            <url>file:/root/.m2/repository</url>
+        </repository>
+    </distributionManagement>
 </project>
